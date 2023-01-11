@@ -1,0 +1,14 @@
+Race: malay
+Gender: male
+Body_Size: thin
+Age_Range: 60.0
+With_Kids: yes
+Kids_Category: young
+Basket_Size: small
+Basket_colour: yellow
+Attire: traditional
+Shirt_Colour: yellow
+shirt_type: short_sleeve
+Pants_Colour: yellow
+pants_type: short
+Wash_Item: clothes

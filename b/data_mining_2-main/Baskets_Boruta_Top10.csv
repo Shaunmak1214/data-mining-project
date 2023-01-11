@@ -1,0 +1,11 @@
+,Features,Score
+20,Num_of_Baskets,1.0
+19,longitude,0.95
+1,Time,0.9
+0,Date,0.85
+5,With_Kids,0.8
+9,Attire,0.75
+13,pants_type,0.7
+11,shirt_type,0.65
+2,Race,0.6
+7,Basket_Size,0.55

@@ -1,0 +1,6 @@
+Accuracy on training set: 0.540
+Accuracy on test set: 0.351
+Mjority classifier Confusion Matrix
+[[104  78  66]
+ [102  95  54]
+ [112  84  69]]

@@ -1,0 +1,4 @@
+Class 0 ROC AUC OvR: 0.4786
+Class 1 ROC AUC OvR: 0.5092
+Class 2 ROC AUC OvR: 0.4986
+Average ROC AUC OvR: 0.4955

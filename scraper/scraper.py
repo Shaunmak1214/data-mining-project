@@ -18,10 +18,7 @@ def load(filename):
 def main():
     appended_data = []
     # run a loop two times
-  
-    
-    
-    
+
     for year in range(2015, 2017):
       months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
       for count, month in enumerate(months):

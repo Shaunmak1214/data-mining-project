@@ -1,0 +1,11 @@
+,Features,Score
+29,city,1.0
+21,latitude,1.0
+26,Month,1.0
+24,weather,1.0
+22,longitude,1.0
+28,rwi,0.96
+0,Date,0.92
+5,Age_Range,0.88
+27,Year,0.84
+18,TimeSpent_minutes,0.8

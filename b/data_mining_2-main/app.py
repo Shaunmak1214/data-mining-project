@@ -34,12 +34,3 @@ st.sidebar.title('The Data Mining Process')
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
-
-
-
-
-
-
-
-
-

@@ -3,9 +3,9 @@
 26,Month,1.0
 22,longitude,0.96
 0,Date,0.93
-28,rwi,0.89
-5,Age_Range,0.85
-24,weather,0.81
+5,Age_Range,0.89
+24,weather,0.85
+28,rwi,0.81
 18,TimeSpent_minutes,0.78
-13,Pants_Colour,0.74
-7,Kids_Category,0.7
+20,TotalSpent_RM,0.74
+13,Pants_Colour,0.7

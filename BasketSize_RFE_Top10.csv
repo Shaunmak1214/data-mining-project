@@ -1,11 +1,11 @@
 ,Features,Score
 26,Month,1.0
-24,weather,1.0
 22,longitude,1.0
 21,latitude,1.0
-18,TimeSpent_minutes,0.96
-29,city,0.92
-0,Date,0.88
+24,weather,0.96
+29,city,0.93
+28,rwi,0.89
 5,Age_Range,0.85
-28,rwi,0.81
-12,Pants_Colour,0.77
+18,TimeSpent_minutes,0.81
+0,Date,0.78
+8,Basket_colour,0.74

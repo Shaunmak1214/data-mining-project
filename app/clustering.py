@@ -11,7 +11,7 @@ def app():
   st.subheader("Quick look at what we can cluster - Lat Lng")
   st.image('./lat_lng_scatter.png', width=600)
   
-  st.subheader("#### KMeans Clustering - Lat Lng")
+  st.write("#### KMeans Clustering - Lat Lng")
   st.write("Finding the optimal k value for KMeans Clustering")
   
   st.image('./long_lat_silhouette.png', width=900)

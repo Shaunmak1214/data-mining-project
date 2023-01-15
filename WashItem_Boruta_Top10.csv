@@ -1,0 +1,11 @@
+,Features,Score
+0,Date,1.0
+21,latitude,1.0
+26,Month,1.0
+24,weather,1.0
+22,longitude,1.0
+29,city,1.0
+28,rwi,0.96
+5,Age_Range,0.92
+13,Pants_Colour,0.87
+7,Kids_Category,0.87

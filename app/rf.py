@@ -43,6 +43,8 @@ Average ROC AUC OvR: 0.5863
   st.write('Grid Search is used to find the best parameters for the model. The best parameters are:')
   st.table(pd.DataFrame ({"Model": ["Random Forest"], "n_estimators": [1000], "max_depth": [5]}))
   
+  st.image('./WI_RF_GRID_SEARCH.png', width=600)
+  
   st.subheader("RF - SMOTE")
   st.table(pd.DataFrame ({
       "Model": ["Random Forest"], 

@@ -12,35 +12,35 @@
 10,With_Kids_yes,0.42625,0.42625,1.0
 11,shirt_type_long sleeve,0.42725,0.42725,1.0
 12,shirt_type_short_sleeve,0.5265,0.5265,1.0
-13,Basket_Size_big -> Attire_casual,0.2275,0.2275,1.0
-14,Basket_Size_small -> Attire_casual,0.12975,0.12975,1.0
+13,Attire_casual -> Basket_Size_big,0.2275,0.2275,1.0
+14,Attire_casual -> Basket_Size_small,0.12975,0.12975,1.0
 15,Gender_female -> Attire_casual,0.1745,0.1745,1.0
 16,Gender_male -> Attire_casual,0.18625,0.18625,1.0
 17,Wash_Item_blankets -> Attire_casual,0.141,0.141,1.0
 18,Wash_Item_clothes -> Attire_casual,0.2195,0.2195,1.0
-19,With_Kids_no -> Attire_casual,0.219,0.219,1.0
+19,Attire_casual -> With_Kids_no,0.219,0.219,1.0
 20,With_Kids_yes -> Attire_casual,0.14425,0.14425,1.0
-21,shirt_type_long sleeve -> Attire_casual,0.134,0.134,1.0
-22,shirt_type_short_sleeve -> Attire_casual,0.22675,0.22675,1.0
+21,Attire_casual -> shirt_type_long sleeve,0.134,0.134,1.0
+22,Attire_casual -> shirt_type_short_sleeve,0.22675,0.22675,1.0
 23,Attire_formal -> Basket_Size_big,0.15725,0.15725,1.0
 24,Attire_formal -> Basket_Size_small,0.12675,0.12675,1.0
 25,Attire_formal -> Gender_female,0.147,0.147,1.0
-26,Attire_formal -> Gender_male,0.13925,0.13925,1.0
-27,Attire_formal -> Wash_Item_blankets,0.134,0.134,1.0
-28,Attire_formal -> Wash_Item_clothes,0.152,0.152,1.0
+26,Gender_male -> Attire_formal,0.13925,0.13925,1.0
+27,Wash_Item_blankets -> Attire_formal,0.134,0.134,1.0
+28,Wash_Item_clothes -> Attire_formal,0.152,0.152,1.0
 29,Attire_formal -> With_Kids_no,0.14825,0.14825,1.0
 30,Attire_formal -> With_Kids_yes,0.135,0.135,1.0
 31,Attire_formal -> shirt_type_long sleeve,0.14125,0.14125,1.0
 32,Attire_formal -> shirt_type_short_sleeve,0.144,0.144,1.0
 33,Attire_traditional -> Basket_Size_big,0.12975,0.12975,1.0
-34,Basket_Size_small -> Attire_traditional,0.12925,0.12925,1.0
+34,Attire_traditional -> Basket_Size_small,0.12925,0.12925,1.0
 35,Gender_female -> Attire_traditional,0.13825,0.13825,1.0
 36,Gender_male -> Attire_traditional,0.12225,0.12225,1.0
 37,Wash_Item_blankets -> Attire_traditional,0.12375,0.12375,1.0
 38,Wash_Item_clothes -> Attire_traditional,0.13425,0.13425,1.0
-39,Attire_traditional -> With_Kids_no,0.129,0.129,1.0
-40,Attire_traditional -> With_Kids_yes,0.13,0.13,1.0
-41,shirt_type_long sleeve -> Attire_traditional,0.13525,0.13525,1.0
+39,With_Kids_no -> Attire_traditional,0.129,0.129,1.0
+40,With_Kids_yes -> Attire_traditional,0.13,0.13,1.0
+41,Attire_traditional -> shirt_type_long sleeve,0.13525,0.13525,1.0
 42,shirt_type_short_sleeve -> Attire_traditional,0.12575,0.12575,1.0
 43,Gender_female -> Basket_Size_big,0.26475,0.26475,1.0
 44,Gender_male -> Basket_Size_big,0.2575,0.2575,1.0
@@ -53,15 +53,15 @@
 51,Gender_female -> Basket_Size_small,0.19425,0.19425,1.0
 52,Gender_male -> Basket_Size_small,0.1925,0.1925,1.0
 53,Wash_Item_blankets -> Basket_Size_small,0.17975,0.17975,1.0
-54,Basket_Size_small -> Wash_Item_clothes,0.2055,0.2055,1.0
-55,Basket_Size_small -> With_Kids_no,0.1975,0.1975,1.0
-56,Basket_Size_small -> With_Kids_yes,0.18925,0.18925,1.0
-57,Basket_Size_small -> shirt_type_long sleeve,0.1885,0.1885,1.0
-58,Basket_Size_small -> shirt_type_short_sleeve,0.2005,0.2005,1.0
+54,Wash_Item_clothes -> Basket_Size_small,0.2055,0.2055,1.0
+55,With_Kids_no -> Basket_Size_small,0.1975,0.1975,1.0
+56,With_Kids_yes -> Basket_Size_small,0.18925,0.18925,1.0
+57,shirt_type_long sleeve -> Basket_Size_small,0.1885,0.1885,1.0
+58,shirt_type_short_sleeve -> Basket_Size_small,0.2005,0.2005,1.0
 59,Wash_Item_blankets -> Gender_female,0.2045,0.2045,1.0
-60,Gender_female -> Wash_Item_clothes,0.25875,0.25875,1.0
+60,Wash_Item_clothes -> Gender_female,0.25875,0.25875,1.0
 61,Gender_female -> With_Kids_no,0.252,0.252,1.0
-62,Gender_female -> With_Kids_yes,0.21075,0.21075,1.0
+62,With_Kids_yes -> Gender_female,0.21075,0.21075,1.0
 63,Gender_female -> shirt_type_long sleeve,0.218,0.218,1.0
 64,Gender_female -> shirt_type_short_sleeve,0.24425,0.24425,1.0
 65,Gender_male -> Wash_Item_blankets,0.19775,0.19775,1.0
@@ -76,28 +76,28 @@
 74,Wash_Item_blankets -> shirt_type_short_sleeve,0.20475,0.20475,1.0
 75,Wash_Item_clothes -> With_Kids_no,0.2915,0.2915,1.0
 76,Wash_Item_clothes -> With_Kids_yes,0.219,0.219,1.0
-77,shirt_type_long sleeve -> Wash_Item_clothes,0.21825,0.21825,1.0
-78,shirt_type_short_sleeve -> Wash_Item_clothes,0.297,0.297,1.0
-79,shirt_type_long sleeve -> With_Kids_no,0.214,0.214,1.0
+77,Wash_Item_clothes -> shirt_type_long sleeve,0.21825,0.21825,1.0
+78,Wash_Item_clothes -> shirt_type_short_sleeve,0.297,0.297,1.0
+79,With_Kids_no -> shirt_type_long sleeve,0.214,0.214,1.0
 80,shirt_type_short_sleeve -> With_Kids_no,0.289,0.289,1.0
-81,shirt_type_long sleeve -> With_Kids_yes,0.1945,0.1945,1.0
-82,shirt_type_short_sleeve -> With_Kids_yes,0.21575,0.21575,1.0
-83,Basket_Size_big -> Gender_female,0.102,0.102,1.0
-84,Basket_Size_big -> Gender_male,0.11,0.11,1.0
-85,Basket_Size_big -> Wash_Item_clothes,0.13425,0.13425,1.0
-86,Basket_Size_big -> With_Kids_no,0.137,0.137,1.0
-87,Basket_Size_big -> shirt_type_short_sleeve,0.1425,0.1425,1.0
+81,With_Kids_yes -> shirt_type_long sleeve,0.1945,0.1945,1.0
+82,With_Kids_yes -> shirt_type_short_sleeve,0.21575,0.21575,1.0
+83,Gender_female -> Attire_casual,0.102,0.102,1.0
+84,Gender_male -> Attire_casual,0.11,0.11,1.0
+85,Wash_Item_clothes -> Attire_casual,0.13425,0.13425,1.0
+86,Attire_casual -> With_Kids_no,0.137,0.137,1.0
+87,shirt_type_short_sleeve -> Attire_casual,0.1425,0.1425,1.0
 88,Gender_male -> Wash_Item_clothes,0.109,0.109,1.0
-89,Gender_male -> With_Kids_no,0.10775,0.10775,1.0
-90,Gender_male -> shirt_type_short_sleeve,0.11325,0.11325,1.0
-91,With_Kids_no -> Wash_Item_clothes,0.13075,0.13075,1.0
-92,shirt_type_short_sleeve -> Wash_Item_clothes,0.1345,0.1345,1.0
-93,shirt_type_short_sleeve -> With_Kids_no,0.13375,0.13375,1.0
+89,Gender_male -> Attire_casual,0.10775,0.10775,1.0
+90,Gender_male -> Attire_casual,0.11325,0.11325,1.0
+91,Wash_Item_clothes -> Attire_casual,0.13075,0.13075,1.0
+92,Wash_Item_clothes -> Attire_casual,0.1345,0.1345,1.0
+93,Attire_casual -> With_Kids_no,0.13375,0.13375,1.0
 94,Wash_Item_blankets -> Gender_female,0.1065,0.1065,1.0
-95,Gender_female -> Wash_Item_clothes,0.14775,0.14775,1.0
+95,Wash_Item_clothes -> Gender_female,0.14775,0.14775,1.0
 96,Gender_female -> With_Kids_no,0.14275,0.14275,1.0
-97,Gender_female -> With_Kids_yes,0.10825,0.10825,1.0
-98,Gender_female -> shirt_type_long sleeve,0.116,0.116,1.0
+97,With_Kids_yes -> Gender_female,0.10825,0.10825,1.0
+98,shirt_type_long sleeve -> Gender_female,0.116,0.116,1.0
 99,Gender_female -> shirt_type_short_sleeve,0.136,0.136,1.0
 100,Gender_male -> Wash_Item_blankets,0.1035,0.1035,1.0
 101,Gender_male -> Wash_Item_clothes,0.14,0.14,1.0
@@ -109,31 +109,31 @@
 107,Wash_Item_blankets -> With_Kids_yes,0.10025,0.10025,1.0
 108,Wash_Item_blankets -> shirt_type_long sleeve,0.1,0.1,1.0
 109,Wash_Item_blankets -> shirt_type_short_sleeve,0.107,0.107,1.0
-110,With_Kids_no -> Wash_Item_clothes,0.17225,0.17225,1.0
+110,Wash_Item_clothes -> With_Kids_no,0.17225,0.17225,1.0
 111,Wash_Item_clothes -> With_Kids_yes,0.112,0.112,1.0
-112,shirt_type_long sleeve -> Wash_Item_clothes,0.11425,0.11425,1.0
-113,shirt_type_short_sleeve -> Wash_Item_clothes,0.1735,0.1735,1.0
+112,Wash_Item_clothes -> shirt_type_long sleeve,0.11425,0.11425,1.0
+113,Wash_Item_clothes -> shirt_type_short_sleeve,0.1735,0.1735,1.0
 114,shirt_type_long sleeve -> With_Kids_no,0.1155,0.1155,1.0
 115,shirt_type_short_sleeve -> With_Kids_no,0.168,0.168,1.0
-116,shirt_type_short_sleeve -> With_Kids_yes,0.112,0.112,1.0
-117,Basket_Size_small -> Wash_Item_clothes,0.1025,0.1025,1.0
-118,Basket_Size_small -> Wash_Item_clothes,0.105,0.105,1.0
-119,Basket_Size_small -> shirt_type_short_sleeve,0.102,0.102,1.0
+116,With_Kids_yes -> shirt_type_short_sleeve,0.112,0.112,1.0
+117,Wash_Item_clothes -> With_Kids_no,0.1025,0.1025,1.0
+118,Wash_Item_clothes -> shirt_type_short_sleeve,0.105,0.105,1.0
+119,shirt_type_short_sleeve -> With_Kids_no,0.102,0.102,1.0
 120,Wash_Item_blankets -> Gender_female,0.1035,0.1035,1.0
-121,Gender_female -> Wash_Item_clothes,0.1375,0.1375,1.0
-122,Gender_female -> Wash_Item_clothes,0.109,0.109,1.0
-123,Gender_female -> Wash_Item_clothes,0.1145,0.1145,1.0
-124,Gender_female -> Wash_Item_clothes,0.13575,0.13575,1.0
-125,Gender_female -> shirt_type_long sleeve,0.1155,0.1155,1.0
+121,Wash_Item_clothes -> Gender_female,0.1375,0.1375,1.0
+122,Wash_Item_clothes -> With_Kids_yes,0.109,0.109,1.0
+123,Wash_Item_clothes -> Gender_female,0.1145,0.1145,1.0
+124,Wash_Item_clothes -> Gender_female,0.13575,0.13575,1.0
+125,Gender_female -> With_Kids_no,0.1155,0.1155,1.0
 126,Gender_female -> shirt_type_short_sleeve,0.1275,0.1275,1.0
-127,Gender_female -> shirt_type_short_sleeve,0.10775,0.10775,1.0
+127,With_Kids_yes -> Gender_female,0.10775,0.10775,1.0
 128,Gender_male -> Wash_Item_clothes,0.138,0.138,1.0
 129,Gender_male -> Wash_Item_clothes,0.102,0.102,1.0
-130,Gender_male -> shirt_type_short_sleeve,0.144,0.144,1.0
+130,Gender_male -> Wash_Item_clothes,0.144,0.144,1.0
 131,Gender_male -> shirt_type_short_sleeve,0.145,0.145,1.0
-132,Gender_male -> shirt_type_short_sleeve,0.10025,0.10025,1.0
+132,Gender_male -> With_Kids_yes,0.10025,0.10025,1.0
 133,Wash_Item_blankets -> shirt_type_short_sleeve,0.10625,0.10625,1.0
-134,shirt_type_long sleeve -> Wash_Item_clothes,0.111,0.111,1.0
-135,shirt_type_short_sleeve -> Wash_Item_clothes,0.166,0.166,1.0
-136,shirt_type_short_sleeve -> Wash_Item_clothes,0.11725,0.11725,1.0
-137,shirt_type_short_sleeve -> With_Kids_no,0.1,0.1,1.0
+134,Wash_Item_clothes -> With_Kids_no,0.111,0.111,1.0
+135,Wash_Item_clothes -> shirt_type_short_sleeve,0.166,0.166,1.0
+136,Wash_Item_clothes -> With_Kids_yes,0.11725,0.11725,1.0
+137,Wash_Item_clothes -> shirt_type_short_sleeve,0.1,0.1,1.0

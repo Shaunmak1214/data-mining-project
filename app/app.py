@@ -3,9 +3,9 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
-import landing as landing
-import ext_datasets as ext_datasets
-import cleaning as cleaning
+import landing
+import ext_datasets
+import cleaning
 import eda
 import fs
 import models

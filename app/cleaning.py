@@ -2,7 +2,6 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-from app import renderFooter
 
 def app():
     st.title("Cleaning the datasets")
@@ -23,4 +22,5 @@ def app():
     st.image('./after_imputing.png')
     st.write("*The data is then saved as a csv file and ready for exploration*")
  
-    renderFooter()
+    st.write(" ")
+    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')

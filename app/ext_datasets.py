@@ -2,7 +2,6 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-from app import renderFooter
 
 def app():
     st.title("Introducing more datasets!")
@@ -25,4 +24,5 @@ def app():
     st.write('The respective sample can be interpreted as follows:')
     st.table(pd.DataFrame(merged_dataset['city'].value_counts()))
 
-    renderFooter()
+    st.write(" ")
+    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')

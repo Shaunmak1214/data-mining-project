@@ -2,7 +2,6 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-from app import renderFooter
 
 def app():
     st.title("Laundry Data Mining")
@@ -24,4 +23,5 @@ def app():
     st.write(dataset.isnull().sum())
     st.write("As you can see, there are quite a number null values in the dataset, head to the Cleaning page to see how we handle them!")
     
-    renderFooter()
+    st.write(" ")
+    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')

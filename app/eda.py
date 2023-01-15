@@ -2,17 +2,14 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-from app import renderFooter
 
 def app():
     st.title("Explanatory Analysis of the Dataset")
     dataset = pd.read_csv('./dataset.csv')
     
-    # create a menu  
-    menu = ["Overview", "Missing Values & Cleaning", "Association", "Correlation", "Likelihood of chooing certain washer or dryer"]
-    choice = st.sidebar.selectbox("EDA Menu", menu)
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Overview", "Missing Values & Cleaning", "Association", "Correlation", "Likelihood of chooing certain washer or dryer"])
     
-    if choice == "Overview":
+    with tab1:
         st.subheader("Overview")
         dataset = pd.read_csv('./dataset_w_weather&rwi&city.csv')
     
@@ -31,8 +28,11 @@ def app():
         st.write("##### Unique values in each column")
         st.write(dataset.nunique())
         
+        # plot location map
+        st.write("##### Location of the customers")
+        st.map(dataset)
     
-    if choice == "Missing Values & Cleaning":
+    with tab2:
         st.subheader("Cleaning the datasets")
 
         st.write("First of all let's plot the nan values in the dataset")
@@ -51,7 +51,7 @@ def app():
         st.image('./after_imputing.png')
         st.write("*The data is then saved as a csv file and ready for exploration*")
     
-    if choice == "Association":
+    with tab3:
         association_rules_csv = pd.read_csv('./association_rules.csv')
         st.subheader("Association Rules")
         st.write("Association rules are a type of frequent itemset mining that is used to find relationships between variables in large databases. Association rules are if-then statements that show how frequently an itemset appears in a database. For example, if a customer buys a certain item, they are likely to buy another item. Association rules are used to find relationships between variables in large databases. Association rules are if-then statements that show how frequently an itemset appears in a database. For example, if a customer buys a certain item, they are likely to buy another item.")
@@ -61,7 +61,7 @@ def app():
         st.write("")
         st.write("As you can see in the table, the amount of support, confidence and lift are quite low. This means that the rules are not very strong. We belive this is because the dataset is quite large and there are many different combinations of items. So it is quite hard to find strong rules.")
 
-    if choice == "Correlation":
+    with tab4:
         st.subheader("Correlation")
         st.write("Correlation is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate). Correlation is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate).")
         st.write("##### The correlation between the numerical columns are as follows:")
@@ -94,7 +94,7 @@ def app():
         st.write("The above plot shows the distribution of the age range of the customers, the distribution is quite normal, with the range of 20-60.")
         st.write("")
         
-    if choice == "Likelihood of chooing certain washer or dryer":
+    with tab5:
         st.subheader("Likelihood of choosing certain washer or dryer")
         st.write("To anwser the question, we first need to filter out the rows that contain the washer or dryer that we're interested in. Then we can find the likelihood of choosing certain washer or dryer by selected the most frequent value.")
         
@@ -122,4 +122,5 @@ Wash_Item: clothes
                 ''')
         
 
-    renderFooter()
+    st.write(" ")
+    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')

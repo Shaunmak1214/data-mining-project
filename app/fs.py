@@ -2,7 +2,6 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-from app import renderFooter
 
 def app():
     st.title("Feature Selection")
@@ -35,4 +34,6 @@ def app():
     st.image('./AgeRange_RFE.png')
     st.write("A closer look at the top 10 features for Wash Item")
     st.table(pd.read_csv('./WashItem_RFE_Top10.csv').drop(columns=['Unnamed: 0']))
-    renderFooter()
+    
+    st.write(" ")
+    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')

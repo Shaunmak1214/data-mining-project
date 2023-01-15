@@ -2,8 +2,6 @@ from re import S
 import pandas as pd
 import streamlit as st
 import numpy as np
-# import load model
-from tensorflow.keras.models import load_model
 import joblib
 import pcustnum_dtr
 import lr

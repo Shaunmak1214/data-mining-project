@@ -24,4 +24,4 @@ def app():
     st.write("As you can see, there are quite a number null values in the dataset, head to the Cleaning page to see how we handle them!")
     
     st.write(" ")
-    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')
+    st.markdown('''Made with ❤️ by **TDS3301 Group 30** ''')

@@ -42,3 +42,34 @@ Average ROC AUC OvR: 0.5863
   st.subheader("Model Tuning:")
   st.write('Grid Search is used to find the best parameters for the model. The best parameters are:')
   st.table(pd.DataFrame ({"Model": ["Random Forest"], "n_estimators": [1000], "max_depth": [5]}))
+  
+  st.subheader("RF - SMOTE")
+  st.table(pd.DataFrame ({
+      "Model": ["Random Forest"], 
+      "Accuracy on traning set": [0.825], 
+      "Accuracy on test set": [0.559], 
+      "Precision Score": [0.5869120654396728],
+      "Recall Score": [0.7051597051597052],
+      "F1 Score": [0.6406249999999999],
+    }))
+  
+  st.code("""
+              precision    recall  f1-score   support
+
+0   0.577933  0.670732  0.620884       492
+1   0.632653  0.536538  0.580645       520
+
+accuracy                       0.601779      1012
+macro avg   0.605293  0.603635  0.600765      1012
+weighted avg   0.606050  0.601779  0.600208      1012
+
+Class 0 ROC AUC OvR: 0.6756
+Class 1 ROC AUC OvR: 0.6756
+Average ROC AUC OvR: 0.6756
+          """)
+  
+  st.subheader("Confusion Matrix:")
+  st.image("./SMOTE_RF_WI_CM.png", width=600)
+  
+  st.subheader("ROC Curve:")
+  st.image("./SMOTE_WASHITEM_RF_1_ROC.png", width=600)

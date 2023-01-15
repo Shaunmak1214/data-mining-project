@@ -25,4 +25,4 @@ def app():
     st.table(pd.DataFrame(merged_dataset['city'].value_counts()))
 
     st.write(" ")
-    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')
+    st.markdown('''Made with ❤️ by **TDS3301 Group 30** ''')

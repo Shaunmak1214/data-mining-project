@@ -123,4 +123,4 @@ Wash_Item: clothes
         
 
     st.write(" ")
-    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')
+    st.markdown('''Made with ❤️ by **TDS3301 Group 30** ''')

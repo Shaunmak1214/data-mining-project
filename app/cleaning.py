@@ -23,4 +23,4 @@ def app():
     st.write("*The data is then saved as a csv file and ready for exploration*")
  
     st.write(" ")
-    st.markdown('''Made with ❤️ by **TDS3301 Group 2** ''')
+    st.markdown('''Made with ❤️ by **TDS3301 Group 30** ''')

@@ -35,3 +35,28 @@ Average ROC AUC OvR: 0.5869
   
   st.subheader("ROC Curve:")
   st.image("./WASHITEM_NB_ROC.png", width=600)
+  
+  st.subheader("NB - SMOTE")
+  st.table(pd.DataFrame ({
+      "Model": ["Naive Bayes"], 
+      "Accuracy on traning set": [0.590], 
+      "Accuracy on test set": [0.575], 
+      "Precision Score": [0.667910447761194],
+      "Recall Score": [0.34423076923076923],
+      "F1 Score": [0.4543147208121827],
+    }))
+  
+  st.code("""
+              precision    recall  f1-score      support
+0              0.541667  0.819106  0.652104   492.000000
+1              0.667910  0.344231  0.454315   520.000000
+accuracy       0.575099  0.575099  0.575099     0.575099
+macro avg      0.604789  0.581668  0.553209  1012.000000
+weighted avg   0.606535  0.575099  0.550473  1012.000000
+Class 0 ROC AUC OvR: 0.5807
+Class 1 ROC AUC OvR: 0.5807
+Average ROC AUC OvR: 0.5807
+          """)
+  
+  st.subheader("ROC Curve:")
+  st.image("./SMOTE_WASHITEM_NB_ROC.png", width=600)
